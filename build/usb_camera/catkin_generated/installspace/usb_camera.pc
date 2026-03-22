@@ -1,0 +1,8 @@
+prefix=/home/noetic/vision-tracking-system/install
+
+Name: usb_camera
+Description: Description of usb_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

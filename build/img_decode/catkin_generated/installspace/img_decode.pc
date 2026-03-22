@@ -1,0 +1,8 @@
+prefix=/home/noetic/vision-tracking-system/install
+
+Name: img_decode
+Description: Description of img_decode
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

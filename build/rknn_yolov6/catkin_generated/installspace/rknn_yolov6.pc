@@ -1,0 +1,8 @@
+prefix=/home/noetic/vision-tracking-system/install
+
+Name: rknn_yolov6
+Description: Description of rknn_yolov6
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: ai_msgs

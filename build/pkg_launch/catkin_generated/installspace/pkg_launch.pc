@@ -1,0 +1,8 @@
+prefix=/home/noetic/vision-tracking-system/install
+
+Name: pkg_launch
+Description: Description of pkg_launch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

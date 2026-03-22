@@ -1,0 +1,2 @@
+ai_msgs:img_decode:object_track:pkg_launch:rknn_yolov6:shm_transport:test11_description:usb_camera:ydlidar
+-DCATKIN_DEVEL_PREFIX=/home/noetic/vision-tracking-system/devel -DCMAKE_INSTALL_PREFIX=/home/noetic/vision-tracking-system/install -G Unix Makefiles

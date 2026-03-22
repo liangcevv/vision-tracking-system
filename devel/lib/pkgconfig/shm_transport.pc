@@ -1,0 +1,8 @@
+prefix=/home/noetic/vision-tracking-system/devel
+
+Name: shm_transport
+Description: Description of shm_transport
+Version: 0.0.1
+Cflags: -I/home/noetic/vision-tracking-system/src/shm_transport/include
+Libs: -L${prefix}/lib -lshm_transport
+Requires: roscpp
