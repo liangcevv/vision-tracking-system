@@ -13,7 +13,7 @@
 
 ## 依赖
 
-- ROS (Noetic/Melodic)
+- ROS (Noetic)
 - OpenCV
 - ONNX Runtime
 - RKNN Toolkit
