@@ -2,7 +2,7 @@
 
 基于 ROS 的目标跟踪系统，支持 USB 摄像头、激光雷达和 RKNN 加速的目标检测。
 
-## 系统架构
+## 节点
 
 - **usb_camera**: USB 摄像头数据采集
 - **img_decode**: 图像解码（支持共享内存传输）
@@ -46,7 +46,7 @@ rostopic pub -1 /enable_lidar std_msgs/Bool "data: true"
 
 ## 第三方代码声明
 
-本项目包含以下第三方代码和库，均按其原始许可证条款使用：
+以下第三方代码和库，均按其原始许可证条款使用：
 
 ### 1. shm_transport (BSD License)
 - **来源**: https://github.com/Jrdevil-Wang/shm_transport
@@ -74,9 +74,6 @@ rostopic pub -1 /enable_lidar std_msgs/Bool "data: true"
 ---
 
 ## License
-
-本项目自有代码（除上述第三方代码外）的版权归项目作者所有。
-
 第三方代码的许可证文件位于各自目录内：
 - `src/shm_transport/package.xml` (BSD)
 - `src/ydlidar/YDLidar-SDK/LICENSE.txt` (MIT)
