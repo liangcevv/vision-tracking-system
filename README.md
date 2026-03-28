@@ -2,14 +2,14 @@
 
 基于 ROS 的目标跟踪系统，支持 USB 摄像头、激光雷达和 RKNN 加速的目标检测。
 
-## 节点
+## 功能模块与节点
 
 - **usb_camera**: USB 摄像头数据采集
 - **img_decode**: 图像解码（支持共享内存传输）
 - **rknn_yolov6**: 基于 RKNN 的 YOLOv6 目标检测
 - **object_track**: 目标跟踪模块
 - **ydlidar**: 激光雷达数据采集
-- **shm_transport**: 共享内存通信（可选）
+- **shm_transport**: 共享内存传输组件（可选）
 
 ## 依赖
 
