@@ -68,7 +68,7 @@ rostopic pub -1 /enable_lidar std_msgs/Bool "data: true"
 ### 3. test11_description (MIT License)
 - **来源**: https://github.com/syuntoku14/fusion2urdf
 - **作者**: Toshinori Kitamura (syuntoku14)
-- **描述**: URDF 描述文件
+- **描述**: 基于 fusion2urdf 示例改造
 - **使用位置**: `src/test11_description/`
 
 ---
